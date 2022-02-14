@@ -1,0 +1,137 @@
+.brand {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .brandTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .brandAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .brandTop {
+    display: flex;
+  }
+  
+  .brandTopLeft,
+  .brandTopRight {
+    flex: 1;
+  }
+  
+  .brandTopRight {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .brandInfoImg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .brandInfoTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brandName {
+    font-weight: 600;
+  }
+  
+  .brandInfoBottom {
+    margin-top: 10px;
+  }
+  
+  .brandInfoItem {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .brandInfoValue {
+    font-weight: 300;
+  }
+  
+  .brandBottom {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .brandForm {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .brandFormLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .brandFormLeft > label {
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
+  .brandFormLeft > input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .brandFormLeft >select{
+    margin-bottom: 10px;
+  }
+  
+  .brandUploadImg{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .brandFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .brandUpload{
+    display: flex;
+    align-items: center;
+  }
+  
+  .brandButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .addProductItem {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
